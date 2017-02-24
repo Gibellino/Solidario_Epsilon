@@ -2,7 +2,7 @@ package model;
 
 public class Recurso {
 
-	int idRecurso;
+	public int idRecurso;
 	String nome;
 	
 	public Recurso(int idRecurso, String nome) {
@@ -10,7 +10,7 @@ public class Recurso {
 		this.idRecurso = idRecurso;
 		this.nome = nome;
 	}
-
+	
 	public int getIdRecurso() {
 		return idRecurso;
 	}

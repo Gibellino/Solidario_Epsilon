@@ -1,9 +1,10 @@
 package model;
 
-public class Entidade {
+public class Entidade{
 
-	int idEntidade;
+	int id_Entidade;
 	String primeiro_Nome, ultimo_Nome;
+	
 	
 	public Entidade(int id_Entidade, String primeiro_Nome, String ultimo_Nome) {
 		this.id_Entidade = id_Entidade;
